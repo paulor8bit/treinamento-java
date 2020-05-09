@@ -43,6 +43,9 @@ hs_err_pid*
 /.metadata/
 
 #others
-*.project
+.project
 module-info.java
+.module-info.java
 .settings
+.classpath
+/.settings/
