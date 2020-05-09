@@ -19,6 +19,8 @@ hs_err_pid*
 
 #java specific
 *.class
+*.classpath
+
 
 #general swap/backup files
 *.so
@@ -39,3 +41,8 @@ hs_err_pid*
 *.rar
 /ProjetoREST/target/
 /.metadata/
+
+#others
+*.project
+module-info.java
+.settings
