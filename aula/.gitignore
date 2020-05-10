@@ -49,3 +49,4 @@ module-info.java
 .settings
 .classpath
 /.settings/
+/bin/

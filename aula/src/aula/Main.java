@@ -37,6 +37,64 @@ public class Main {
 		String[][] nome2 = new String[5][5]; 
 		nome2[0][0] = "Felipe";
 		System.out.println(nome2[0][0]);
+		
+		//Condições
+		int vida = 101;
+		if (vida > 100) {
+			vida+=100;
+			System.out.println("Minha vida é maior que 100. Com total: " +vida);
+				}else {
+					System.out.println("Minha vida não é maior a 100");
+				}
+		
+		String nome3 ="Paulo"; 
+		String nome4 = "Ricardo";
+		if(nome3 == "Paulo" && nome4 == "Ricardo") { 
+			System.out.println("Nomes igual a" +nome3);
+		}
+	
+		//Swicth and Case
+		
+		int life = 100; 
+				
+		switch(life) 
+		{
+			case 90: 
+				System.out.println("O life é 90");
+			break;
+			case 30:
+				System.out.println("O life é 30");
+				break;
+			default: 
+				System.out.println("Nenhuma das condiçõe bateu");
+		}
+		
+		//Operações
+		int vida_1 = 100;
+		int vida_2 = 100;
+		int vida_3 = 100;
+		
+		int vida_final = vida_1 + vida_2 + vida_3;
+		
+		System.out.println(" A vida é final é "+vida_final);
+		
+		int vida_final2 = ((vida_1 + vida_2)/2)*2;
+		System.out.println(" A vida é final é "+vida_final2);
+		
+		//repetição
+		
+		int contador = 1; 
+		
+		while(contador <= 10) {
+			System.out.println(" O contador agora esta em  "+contador);
+			contador++;
+		}
+		
+		
+		for(int i=11;i<=20;i++) {
+			System.out.println(" O contador agora esta em  "+i);	
+		}
+		
 	}
 
 }
